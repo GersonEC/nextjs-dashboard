@@ -1,7 +1,6 @@
 {
   "private": true,
   "scripts": {
-    "pre-build": "cd node_modules/bcrypt && npx node-pre-gyp install --fallback-to-build",
     "build": "pnpm run pre-build && next build",
     "dev": "next dev --turbopack",
     "start": "next start"
